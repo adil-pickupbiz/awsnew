@@ -9,7 +9,7 @@ app.use(express.json())
 
 // moggose is contect
 mongoose
-.connect('mongodb://127.0.0.1:27017/Authentication')
+.connect('mongodb+srv://devmutaharpickupbiz:mutahar@cluster0.nzjh9.mongodb.net/Authentication')
 .then(console.log("Contect the mongosse..."))
 
 app.get("/",(req,res)=>{
